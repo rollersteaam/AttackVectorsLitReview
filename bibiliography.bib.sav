@@ -1,0 +1,21 @@
+% Encoding: UTF-8
+
+@Article{stuxnet2report,
+  author  = {Falliere, Nicolas and Murchu, Liam O and Chien, Eric},
+  title   = {W32. stuxnet dossier},
+  journal = {White paper, Symantec Corp., Security Response},
+  year    = {2011},
+  volume  = {5},
+  number  = {6},
+  pages   = {29},
+  comment = {Stuxnet infected over 100,000 hosts, and was in action on targetted reactor centrifuge control systems for at least over 1 year before being detected.},
+}
+
+@Book{singer2014cybersecurity,
+  title     = {Cybersecurity: What everyone needs to know},
+  publisher = {oup usa},
+  year      = {2014},
+  author    = {Singer, Peter W and Friedman, Allan},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

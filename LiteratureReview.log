@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  29 FEB 2020 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  29 FEB 2020 20:31
 entering extended mode
-**c:/Users/Jordan/Desktop/LiteratureReview/LiteratureReview.tex
-(c:/Users/Jordan/Desktop/LiteratureReview/LiteratureReview.tex
+**c:/Users/Jordan/Desktop/OutsideTheBoxLiteratureReview/LiteratureReview.tex
+(c:/Users/Jordan/Desktop/OutsideTheBoxLiteratureReview/LiteratureReview.tex
 LaTeX2e <2019-10-01>
 ("C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2019/08/27 v1.4j Standard LaTeX document class
@@ -44,7 +44,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
- ("C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) (c:/Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux)
+ ("C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.cfg")) ("C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux)
 \openout1 = `LiteratureReview.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -102,19 +106,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 12.
 [1
 
-{C:/Users/Jordan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [1] (c:/Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux) ) 
+{C:/Users/Jordan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 3.
+)
+\tf@toc=\write3
+\openout3 = `LiteratureReview.toc'.
+
+ [1] (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl) [2] (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux) ) 
 Here is how much of TeX's memory you used:
- 781 strings out of 492452
- 11446 string characters out of 3119597
- 79133 words of memory out of 3000000
- 5193 multiletter control sequences out of 15000+200000
- 7887 words of font info for 28 fonts, out of 3000000 for 9000
+ 896 strings out of 492452
+ 13416 string characters out of 3119597
+ 81076 words of memory out of 3000000
+ 5297 multiletter control sequences out of 15000+200000
+ 9157 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,6n,23p,234b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on c:/Users\Jordan\Desktop\LiteratureReview\LiteratureReview.pdf (2 pages, 55884 bytes).
+ 25i,6n,23p,1542b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf (3 pages, 89436 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
+ 36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

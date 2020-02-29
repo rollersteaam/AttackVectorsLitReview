@@ -1,10 +1,10 @@
 \documentclass[a4paper, 11pt]{article}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{cite}
 
+\bibliographystyle{IEEEtran}
 \title{Literature Review}
 \author{Jordan Peters}
-
-
 \begin{document}
 
 
@@ -13,12 +13,16 @@
     I certify that all material in this dissertation which is not my own work has been identified.
 \end{titlepage}
 
+\tableofcontents
 
-\section{Abstract}
-Brief summary
+
+\pagebreak
+
 
 \section{Introduction}
-Explanation of the purpose, statement of the research questions you intend to address
+In 2010, a "worm" virus, one that spreads across and embeds itself into systems, infected approximately 100,000 systems \cite{stuxnet2011report} and caused exactly 984 nuclear centrifuges to repeatedly malfunction \cite{singer2014cybersecurity} over the span of at least 1 year \cite{stuxnet2011report}. It eluded detection by performing specific subroutines that would cause the equipment to only break in such a way that would cause no harm to people, and would make the scientists believe the equipment they was sold was just faulty and that they were unlucky. \cite{singer2014cybersecurity} This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. \cite{stuxnet2011report}\cite{singer2014cybersecurity} Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. \cite{stuxnet2011report} But how do viruses like these ever get remotely close to the systems that they attack? What are their routes of intrusion? Was it difficult for the attackers to attack this way, or is it easy if you have the knowhow? This literature review aims to answer the question of how cybersecurity intrusion is carried out, and what researchers are attempting to do to analyse these attack vectors and deny infection altogether.
+
+\section{Literature Review}
 
 \subsection{What do researchers know?}
 
@@ -34,22 +38,10 @@ Explanation of the purpose, statement of the research questions you intend to ad
 
 \subsection{Where are the gaps in the knowledge?}
 
-\section{Literature Review}
-Critical assessment of topic, how does the current study relate to what's already been done
-
-\section{Methods}
-How the study was carried out (instruments, equipment, procedures, methods to gather and analyze data)
-
-\section{Results}
-What was found in the course of the study
-
-\section{Discussion}
-What do the results mean
-
 \section{Conclusion}
-State the conclusions and implications of the results. Discuss how it relates to the work reviewed in the literature review, 
+Summary and conclusions to take forward.
 
 \section{Bibiliography}
-
+\bibliography{bibiliography}
 
 \end{document}

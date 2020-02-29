@@ -1,7 +1,7 @@
-PWD c:\Users\Jordan\Desktop\LiteratureReview
+PWD c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview
 INPUT C:\Users\Jordan\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.tex
-OUTPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.log
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.tex
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.log
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
@@ -19,9 +19,11 @@ INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxe
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
-INPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux
-INPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux
-OUTPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
@@ -32,12 +34,23 @@ INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.pdf
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf
 INPUT C:\Users\Jordan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.toc
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.toc
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.toc
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\Jordan\Desktop\LiteratureReview\LiteratureReview.aux
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
@@ -46,3 +59,5 @@ INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfo
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
