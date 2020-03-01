@@ -58,7 +58,10 @@ T.~Matsumoto, H.~Matsumoto, K.~Yamada, and S.~Hoshino, ``Impact of artificial"
 \BIBentrySTDinterwordspacing
 
 \bibitem{ref:harrison2003hackers}
+\BIBentryALTinterwordspacing
 A.~Harrison, ``Hackers claim new fingerprint biometric attack,'' \emph{Security
-  Focus}, 2003.
+  Focus}, 2003. [Online]. Available:
+  \url{https://www.securityfocus.com/news/6717}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

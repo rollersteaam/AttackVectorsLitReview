@@ -79,11 +79,12 @@ Successive representational models that have become increasingly complex. These 
   url          = {http://cryptome.org/gummy.htm},
 }
 
-@Article{rharrison2003hackers,
+@Article{ref:harrison2003hackers,
   author  = {Harrison, Ann},
   title   = {Hackers claim new fingerprint biometric attack},
   journal = {Security Focus},
   year    = {2003},
+  url     = {https://www.securityfocus.com/news/6717},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
