@@ -1,9 +1,9 @@
-\contentsline {section}{\numberline {1}Introduction}{2}% 
-\contentsline {section}{\numberline {2}Literature Review}{2}% 
-\contentsline {subsection}{\numberline {2.1}What do researchers know?}{2}% 
-\contentsline {subsection}{\numberline {2.2}What do they not know?}{2}% 
-\contentsline {subsection}{\numberline {2.3}What has been researched and what has not been researched?}{2}% 
-\contentsline {subsection}{\numberline {2.4}Is the research reliable and trustworthy?}{2}% 
-\contentsline {subsection}{\numberline {2.5}Where are the gaps in the knowledge?}{2}% 
-\contentsline {section}{\numberline {3}Conclusion}{2}% 
-\contentsline {section}{\numberline {4}Bibiliography}{2}% 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
+\contentsline {section}{\numberline {2}Literature Review}{2}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}What do researchers know?}{2}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}What do they not know?}{2}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}What has been researched and what has not been researched?}{2}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Is the research reliable and trustworthy?}{2}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Where are the gaps in the knowledge?}{2}{subsection.2.5}% 
+\contentsline {section}{\numberline {3}Conclusion}{2}{section.3}% 
+\contentsline {section}{\numberline {4}Bibiliography}{2}{section.4}% 

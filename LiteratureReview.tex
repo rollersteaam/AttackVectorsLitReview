@@ -1,8 +1,8 @@
 \documentclass[a4paper, 11pt]{article}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{cite}
+\usepackage{hyperref}
 
-\bibliographystyle{IEEEtran}
 \title{Literature Review}
 \author{Jordan Peters}
 \begin{document}
@@ -20,7 +20,7 @@
 
 
 \section{Introduction}
-In 2010, a "worm" virus, one that spreads across and embeds itself into systems, infected approximately 100,000 systems \cite{stuxnet2011report} and caused exactly 984 nuclear centrifuges to repeatedly malfunction \cite{singer2014cybersecurity} over the span of at least 1 year \cite{stuxnet2011report}. It eluded detection by performing specific subroutines that would cause the equipment to only break in such a way that would cause no harm to people, and would make the scientists believe the equipment they was sold was just faulty and that they were unlucky. \cite{singer2014cybersecurity} This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. \cite{stuxnet2011report}\cite{singer2014cybersecurity} Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. \cite{stuxnet2011report} But how do viruses like these ever get remotely close to the systems that they attack? What are their routes of intrusion? Was it difficult for the attackers to attack this way, or is it easy if you have the knowhow? This literature review aims to answer the question of how cybersecurity intrusion is carried out, and what researchers are attempting to do to analyse these attack vectors and deny infection altogether.
+In 2010, a "worm" virus, one that spreads across and embeds itself into systems, infected approximately 100,000 systems \cite{ref:stuxnet2011report} and caused exactly 984 nuclear centrifuges to repeatedly malfunction \cite{ref:singer2014cybersecurity} over the span of at least 1 year \cite{ref:stuxnet2011report}. It eluded detection by performing specific subroutines that would cause the equipment to only break in such a way that it would cause no harm to people, and would make the scientists believe the equipment they was sold was just faulty and that they were unlucky. \cite{ref:singer2014cybersecurity} This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. \cite{ref:stuxnet2011report}\cite{ref:singer2014cybersecurity} Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. \cite{ref:stuxnet2011report} Stuxnet was of such high complexity and danger that security researchers at Symantec said they hope to never see anything like this again. \cite{ref:stuxnet2011report} But how do attacks like these ever get remotely close to the systems that they target? What are their routes of intrusion? Was it difficult for the attackers to attack this way, or is it easy if you have the knowhow? This literature review aims to answer the question of how cybersecurity intrusion is carried out, and what researchers are attempting to do to analyse these attack vectors and deny infection altogether.
 
 \section{Literature Review}
 
@@ -42,6 +42,7 @@ In 2010, a "worm" virus, one that spreads across and embeds itself into systems,
 Summary and conclusions to take forward.
 
 \section{Bibiliography}
-\bibliography{bibiliography}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
 
 \end{document}

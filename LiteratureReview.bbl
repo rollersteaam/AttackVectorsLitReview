@@ -21,12 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{stuxnet2011report}
+\bibitem{ref:stuxnet2011report}
+\BIBentryALTinterwordspacing
 N.~Falliere, L.~O. Murchu, and E.~Chien, ``W32. stuxnet dossier,'' \emph{White
   paper, Symantec Corp., Security Response}, vol.~5, no.~6, p.~29, 2011.
+  [Online]. Available:
+  \url{https://nsarchive2.gwu.edu//NSAEBB/NSAEBB424/docs/Cyber-044.pdf}
+\BIBentrySTDinterwordspacing
 
-\bibitem{singer2014cybersecurity}
+\bibitem{ref:singer2014cybersecurity}
+\BIBentryALTinterwordspacing
 P.~W. Singer and A.~Friedman, \emph{Cybersecurity: What everyone needs to
-  know}.\hskip 1em plus 0.5em minus 0.4em\relax oup usa, 2014.
+  know}.\hskip 1em plus 0.5em minus 0.4em\relax oup usa, 2014. [Online].
+  Available:
+  \url{https://books.google.co.uk/books?id=B88ZAgAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

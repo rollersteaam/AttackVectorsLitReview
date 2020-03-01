@@ -21,9 +21,42 @@ INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geome
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
 INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
 INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
 OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
@@ -34,7 +67,6 @@ INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
-OUTPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf
 INPUT C:\Users\Jordan\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
@@ -49,6 +81,8 @@ INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl
 INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
+INPUT c:\Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.out
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Jordan\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
