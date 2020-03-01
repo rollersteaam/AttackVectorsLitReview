@@ -38,7 +38,27 @@ P.~W. Singer and A.~Friedman, \emph{Cybersecurity: What everyone needs to
 \BIBentrySTDinterwordspacing
 
 \bibitem{ref:biometricattackvectors}
+\BIBentryALTinterwordspacing
 C.~Roberts, ``Biometric attack vectors and defences,'' \emph{Computers \&
-  Security}, vol.~26, no.~1, pp. 14--25, 2007.
+  Security}, vol.~26, no.~1, pp. 14--25, 2007. [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S016740480600215X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref:willis1998six}
+D.~Willis and M.~Lee, ``Six biometric devices point the finger at security,''
+  \emph{Computers \& Security}, vol.~5, no.~17, pp. 410--411, 1998.
+
+\bibitem{ref:matsumoto2002impact}
+\BIBentryALTinterwordspacing
+T.~Matsumoto, H.~Matsumoto, K.~Yamada, and S.~Hoshino, ``Impact of artificial"
+  gummy" fingers on fingerprint systems,'' in \emph{Optical Security and
+  Counterfeit Deterrence Techniques IV}, vol. 4677.\hskip 1em plus 0.5em minus
+  0.4em\relax International Society for Optics and Photonics, 2002, pp.
+  275--289. [Online]. Available: \url{http://cryptome.org/gummy.htm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref:harrison2003hackers}
+A.~Harrison, ``Hackers claim new fingerprint biometric attack,'' \emph{Security
+  Focus}, 2003.
 
 \end{thebibliography}

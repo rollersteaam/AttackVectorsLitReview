@@ -3,6 +3,10 @@
 \contentsline {subsection}{\numberline {2.1}What do researchers know?}{2}{subsection.2.1}% 
 \contentsline {subsubsection}{\numberline {2.1.1}Software Vulnerabilities}{2}{subsubsection.2.1.1}% 
 \contentsline {subsubsection}{\numberline {2.1.2}System Level Vulnerabilities}{3}{subsubsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.3}Spoofing Biometric Systems}{3}{subsubsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.4}Payloads}{3}{subsubsection.2.1.4}% 
+\contentsline {subsubsection}{\numberline {2.1.5}Removable Drives}{3}{subsubsection.2.1.5}% 
+\contentsline {subsubsection}{\numberline {2.1.6}Collusion and Coercion}{3}{subsubsection.2.1.6}% 
 \contentsline {subsection}{\numberline {2.2}What do they not know?}{3}{subsection.2.2}% 
 \contentsline {subsection}{\numberline {2.3}What has been researched and what has not been researched?}{3}{subsection.2.3}% 
 \contentsline {subsection}{\numberline {2.4}Is the research reliable and trustworthy?}{3}{subsection.2.4}% 

@@ -31,7 +31,8 @@ How do attacks like these ever get remotely close to the systems that they targe
 \subsection{What do researchers know?}
 Attack vectors, defined as the path used by an attacker to conduct an attack or to attempt to bypass system controls, \cite{ref:biometricattackvectors} today are increasing as a result of the emerging nature of new technologies. As almost all of software developer's focus is put on developing software to solve a business problem, the security of this software becomes inherently neglected. The multi-contextual nature of software and its very large plethora of applications mean that the number of attack vectors attackers can choose to move through increase. These are commonly referred to in the same context as attack surfaces, known as the amount of ways an attacker can attack a given system. The greater the attack surface, the more vulnerable the system.
 
-Stuxnet isn't fair to compare to the rest. It utilised 4 zero-day vulnerabilities, known as a vulnerability that was not previously known to the public, and used 2 stolen digital certificiates, a security mechanism used to secure communications between two machines over the Internet, \cite{ref:stuxnet2011report} to complete its task of disrupting operations at Iran's illicit nuclear research facility. \cite{ref:singer2014cybersecurity} This is not normal. Hackers don't reveal more than one zero-day unless they have to, and stolen digital certificates are almost never used in an attack due to the sheer difficulty of stealing the certificates physically from the companies to be capable of it. \cite{ref:singer2014cybersecurity} A willing or unwilling contractor or insider for the Iran facility was likely used to carry out the attack, and another insider was likely used to steal the digital certificates from the certificate authority companies. \cite{ref:stuxnet2011report} This was a marksman's job from beginning to end and does not compare to ordinary cyber attacks today. \cite{ref:stuxnet2011report}
+Stuxnet isn't fair to compare to the rest. It utilised 4 zero-day vulnerabilities, known as a vulnerability that was not previously known to the public, and used 2 stolen digital certificiates, a security mechanism used to secure communications between two machines over the Internet, \cite{ref:stuxnet2011report} to complete its task of disrupting operations at Iran's illicit nuclear research facility. \cite{ref:singer2014cybersecurity} This is not normal. Hackers don't reveal more than one zero-day unless they have to, and stolen digital certificates are almost never used in an attack due to the sheer difficulty of stealing the certificates physically from the companies to be capable of it. \cite{ref:singer2014cybersecurity} A willing or unwilling contractor or insider for the Iran facility was likely used to carry out the attack, and another insider was likely used to steal the digital certificates from the certificate authority companies. \cite{ref:stuxnet2011report} This was a marksman's job from beginning to end and does not compare to ordinary cyber 
+attacks today. \cite{ref:stuxnet2011report}
 
 \subsubsection{Software Vulnerabilities}
 \label{sec:softwarevul}
@@ -40,6 +41,22 @@ This does provide us a glimpse into the common use of a \bfseries combination \m
 \subsubsection{System Level Vulnerabilities}
 \label{sec:systemlevel}
 
+
+\subsubsection{Spoofing Biometric Systems}
+\label{sec:spoofingbiometric}
+The most prominent method of circumventing biometric systems, such as fingerprint scanners, iris scanners and facial recognition devices, is spoofing. \cite{ref:biometricattackvectors} Spoofing is the presentation of an item, false data or a false biometric claiming to be legitimate, resulting in a system triggering a false positive and granting access. \cite{ref:biometricattackvectors}
+
+What some might consider to be reserved to James Bond movies is very much practical in real life. For example, the most basic form of spoofing appears to be lifting fingerprints and re-using them, which began research back in 1998. \cite{ref:biometricattackvectors} \cite{ref:willis1998six} They found that 4 out of 6 devices tested were susceptible to these fake finger attacks. \cite{ref:willis1998six} The next step up was the use of "gummy fingers" in 2002 \cite{ref:matsumoto2002impact}, where finger sleeves were made from gelatine and fingerprints were imprinted on them. Their research showed a high acceptance rate from fingerprint readers that used optical (measuring the reflection of light \cite{ref:matsumoto2002impact}) or capacitative (the ability for something to store electrical charge) sensors, which are most fingerprint readers today. \cite{ref:matsumoto2002impact} Then two German hackers in August 2003 claimed to have developed a technique of using prints left behind on a scanner and converting them into a latex finger, reconstructing digital images of the prints left behind on scanners into three-dimensional replications of the fingerprint. \cite{ref:biometricattackvectors} \cite{ref:harrison2003hackers}
+
+\subsubsection{Payloads}
+\label{sec:payloads}
+
+\subsubsection{Removable Drives}
+\label{sec:removabledrives}
+
+\subsubsection{Collusion and Coercion}
+\label{sec:coercion}
+The threat of being exposed for some sort of secret is a very effective motivator to make someone do something for you, such as giving up their biometric and access privileges \cite{ref:biometricattackvectors} or inserting removable drives that carry a payload (see \ref{sec:payloads}) into a confidential system for you (see \ref{sec:removabledrives}). The reputation of someone can be irrepairably damaged by particular allegations, \cite{ref:biometricattackvectors} making this style of attack vector very powerful.
 
 \subsection{What do they not know?}
 

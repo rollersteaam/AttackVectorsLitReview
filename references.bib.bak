@@ -29,7 +29,61 @@
   volume    = {26},
   number    = {1},
   pages     = {14--25},
+  comment   = {https://scihub.bban.top/https://doi.org/10.1016/j.cose.2006.12.008
+
+# How does someone attack a biometric system? What attack vectors might they use?
+The majority of reported biometric system incidents are related to spoofing. Typically security breaches are a result of exploited vulnerabilities (cited). Poor physical security is an easily exploitable attack vector. 
+
+Collusion and cooercion
+
+Spoofing
+- Lifted fingerprints or fake fingers (cited)
+- Gummy fingers (cited)
+- Latex three-dimensional fake fingers (cited)
+
+Replay attacking
+Synthesised feature vector 
+
+
+# How are researchers defending against these attacks?
+
+# What do researchers not know?
+
+# What has been researched and what has not been researched?
+Successive representational models that have become increasingly complex. These models decrease in practical application. What does this mean?
+
+# What gaps are there in the knowledge of biometric attack research?
+},
   publisher = {Elsevier},
+  url       = {https://www.sciencedirect.com/science/article/pii/S016740480600215X},
+}
+
+@Article{ref:willis1998six,
+  author  = {Willis, David and Lee, Mike},
+  title   = {Six biometric devices point the finger at security},
+  journal = {Computers \& Security},
+  year    = {1998},
+  volume  = {5},
+  number  = {17},
+  pages   = {410--411},
+}
+
+@InProceedings{ref:matsumoto2002impact,
+  author       = {Matsumoto, Tsutomu and Matsumoto, Hiroyuki and Yamada, Koji and Hoshino, Satoshi},
+  title        = {Impact of artificial" gummy" fingers on fingerprint systems},
+  booktitle    = {Optical Security and Counterfeit Deterrence Techniques IV},
+  year         = {2002},
+  volume       = {4677},
+  pages        = {275--289},
+  organization = {International Society for Optics and Photonics},
+  url          = {http://cryptome.org/gummy.htm},
+}
+
+@Article{harrison2003hackers,
+  author  = {Harrison, Ann},
+  title   = {Hackers claim new fingerprint biometric attack},
+  journal = {Security Focus},
+  year    = {2003},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
