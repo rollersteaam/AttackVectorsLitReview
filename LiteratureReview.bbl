@@ -44,6 +44,25 @@ C.~Roberts, ``Biometric attack vectors and defences,'' \emph{Computers \&
   \url{https://www.sciencedirect.com/science/article/pii/S016740480600215X}
 \BIBentrySTDinterwordspacing
 
+\bibitem{ref:ibmbiometrics}
+\BIBentryALTinterwordspacing
+N.~K. Ratha, J.~H. Connell, and R.~M. Bolle, ``Enhancing security and privacy
+  in biometrics-based authentication systems,'' \emph{IBM systems Journal},
+  vol.~40, no.~3, pp. 614--634, 2001. [Online]. Available:
+  \url{https://www.researchgate.net/profile/Jonathan_Connell/publication/220353130_Enhancing_Security_and_Privacy_in_Biometrics-Based_Authentication_Systems/links/555a010508ae6fd2d8281b10/Enhancing-Security-and-Privacy-in-Biometrics-Based-Authentication-Systems.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ref:honeymoonsoftware}
+\BIBentryALTinterwordspacing
+S.~Clark, S.~Frei, M.~Blaze, and J.~Smith, ``Familiarity breeds contempt: The
+  honeymoon effect and the role of legacy code in zero-day vulnerabilities,''
+  in \emph{Proceedings of the 26th Annual Computer Security Applications
+  Conference}, ser. ACSAC ’10.\hskip 1em plus 0.5em minus 0.4em\relax New
+  York, NY, USA: Association for Computing Machinery, 2010, p. 251–260.
+  [Online]. Available:
+  \url{https://doi-org.uoelibrary.idm.oclc.org/10.1145/1920261.1920299}
+\BIBentrySTDinterwordspacing
+
 \bibitem{ref:willis1998six}
 D.~Willis and M.~Lee, ``Six biometric devices point the finger at security,''
   \emph{Computers \& Security}, vol.~5, no.~17, pp. 410--411, 1998.
@@ -63,5 +82,9 @@ A.~Harrison, ``Hackers claim new fingerprint biometric attack,'' \emph{Security
   Focus}, 2003. [Online]. Available:
   \url{https://www.securityfocus.com/news/6717}
 \BIBentrySTDinterwordspacing
+
+\bibitem{ref:bodybiometrie}
+C.~Body, T.~Lisa, K.~Jan, and Z.~Peter-Michael, ``Biometrie (translated from
+  the original german by robert w. smith) c’t magazine 2002; 114.''
 
 \end{thebibliography}

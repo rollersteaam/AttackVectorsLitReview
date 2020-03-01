@@ -87,4 +87,38 @@ Successive representational models that have become increasingly complex. These 
   url     = {https://www.securityfocus.com/news/6717},
 }
 
+@Misc{ref:bodybiometrie,
+  author = {Body, Check and Lisa, Thalheim and Jan, Krissler and Peter-Michael, Ziegler},
+  title  = {Biometrie (Translated from the original German by Robert W. Smith) c’t magazine 2002; 114},
+}
+
+@Article{ref:ibmbiometrics,
+  author    = {Ratha, Nalini K. and Connell, Jonathan H. and Bolle, Ruud M.},
+  title     = {Enhancing security and privacy in biometrics-based authentication systems},
+  journal   = {IBM systems Journal},
+  year      = {2001},
+  volume    = {40},
+  number    = {3},
+  pages     = {614--634},
+  publisher = {IBM},
+  url       = {https://www.researchgate.net/profile/Jonathan_Connell/publication/220353130_Enhancing_Security_and_Privacy_in_Biometrics-Based_Authentication_Systems/links/555a010508ae6fd2d8281b10/Enhancing-Security-and-Privacy-in-Biometrics-Based-Authentication-Systems.pdf},
+}
+
+@InProceedings{,
+  author    = {Clark, Sandy and Frei, Stefan and Blaze, Matt and Smith, Jonathan},
+  title     = {Familiarity Breeds Contempt: The Honeymoon Effect and the Role of Legacy Code in Zero-Day Vulnerabilities},
+  booktitle = {Proceedings of the 26th Annual Computer Security Applications Conference},
+  year      = {2010},
+  series    = {ACSAC ’10},
+  pages     = {251–260},
+  address   = {New York, NY, USA},
+  publisher = {Association for Computing Machinery},
+  doi       = {10.1145/1920261.1920299},
+  file      = {:papers/10.1145_1920261.1920299 - Familiarity Breeds Contempt_ the Honeymoon Effect and the Role of Legacy Code in Zero Day Vulnerabilities.pdf:PDF},
+  isbn      = {9781450301336},
+  location  = {Austin, Texas, USA},
+  numpages  = {10},
+  url       = {https://doi-org.uoelibrary.idm.oclc.org/10.1145/1920261.1920299},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
