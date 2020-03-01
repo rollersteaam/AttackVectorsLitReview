@@ -37,4 +37,8 @@ P.~W. Singer and A.~Friedman, \emph{Cybersecurity: What everyone needs to
   \url{https://books.google.co.uk/books?id=B88ZAgAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false}
 \BIBentrySTDinterwordspacing
 
+\bibitem{ref:biometricattackvectors}
+C.~Roberts, ``Biometric attack vectors and defences,'' \emph{Computers \&
+  Security}, vol.~26, no.~1, pp. 14--25, 2007.
+
 \end{thebibliography}

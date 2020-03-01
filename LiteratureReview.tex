@@ -20,7 +20,7 @@
 
 
 \section{Introduction}
-In 2010, a "worm" virus, one that spreads across and embeds itself into systems, infected approximately 100,000 systems \cite{ref:stuxnet2011report} and caused exactly 984 nuclear centrifuges to repeatedly malfunction \cite{ref:singer2014cybersecurity} over the span of at least 1 year \cite{ref:stuxnet2011report}. It eluded detection by performing specific subroutines that would cause the equipment to only breakdown in such a way that it would cause no harm to people, and would make the scientists believe the equipment they were sold was just faulty and that they were unlucky. \cite{ref:singer2014cybersecurity}
+In 2010, a "worm" virus, one that spreads across and embeds itself into systems, infected approximately 100,000 systems \cite{ref:stuxnet2011report} and controlled 984 nuclear centrifuges to repeatedly malfunction them \cite{ref:singer2014cybersecurity} over the span of at minimum 1 year, and likely more. \cite{ref:stuxnet2011report} It eluded detection by performing specific subroutines that would cause the equipment to only breakdown in such a way that it would cause no harm to people, and would make the scientists believe the equipment they were sold was just faulty and that they were unlucky. \cite{ref:singer2014cybersecurity}
 
 This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. \cite{ref:stuxnet2011report}\cite{ref:singer2014cybersecurity} Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. \cite{ref:stuxnet2011report} Stuxnet was of such high complexity and danger that security researchers at Symantec said they hope to never see anything like this again. \cite{ref:stuxnet2011report}
 
@@ -29,6 +29,16 @@ How do attacks like these ever get remotely close to the systems that they targe
 \section{Literature Review}
 
 \subsection{What do researchers know?}
+Attack vectors, defined as the path used by an attacker to conduct an attack or to attempt to bypass system controls, \cite{ref:biometricattackvectors} today are increasing as a result of the emerging nature of new technologies. As almost all of software developer's focus is put on developing software to solve a business problem, the security of this software becomes inherently neglected. The multi-contextual nature of software and its very large plethora of applications mean that the number of attack vectors attackers can choose to move through increase. These are commonly referred to in the same context as attack surfaces, known as the amount of ways an attacker can attack a given system. The greater the attack surface, the more vulnerable the system.
+
+Stuxnet isn't fair to compare to the rest. It utilised 4 zero-day vulnerabilities, known as a vulnerability that was not previously known to the public, and used 2 stolen digital certificiates, a security mechanism used to secure communications between two machines over the Internet, \cite{ref:stuxnet2011report} to complete its task of disrupting operations at Iran's illicit nuclear research facility. \cite{ref:singer2014cybersecurity} This is not normal. Hackers don't reveal more than one zero-day unless they have to, and stolen digital certificates are almost never used in an attack due to the sheer difficulty of stealing the certificates physically from the companies to be capable of it. \cite{ref:singer2014cybersecurity} A willing or unwilling contractor or insider for the Iran facility was likely used to carry out the attack, and another insider was likely used to steal the digital certificates from the certificate authority companies. \cite{ref:stuxnet2011report} This was a marksman's job from beginning to end and does not compare to ordinary cyber attacks today. \cite{ref:stuxnet2011report}
+
+\subsubsection{Software Vulnerabilities}
+\label{sec:softwarevul}
+This does provide us a glimpse into the common use of a \bfseries combination \mdseries of attack strategies to accomplish a goal. Here we see the use of zero-day vulnerabilities, through a type of attack vector known as software vulnerabilities, where bugged code in software is exploited. \cite{ref:singer2014cybersecurity} For Stuxnet, vulnerabilities in antivirus software were exploited, along with system level vulnerabilities discussed in  \ref{sec:systemlevel}. During the virus' initial injection, it would scan the currently running antiviruses and system processes, read metadata like their version number, and decide which process to inject its malicious code into, optionally using one of two zero-day vulnerabilities for code injection that it contained. \cite{ref:stuxnet2011report} The virus does this to elevate privileges so it can perform any action it desires on the target computer. \cite{ref:stuxnet2011report} If no process was bypassable, the virus would become inert. \cite{ref:stuxnet2011report}
+
+\subsubsection{System Level Vulnerabilities}
+\label{sec:systemlevel}
 
 
 \subsection{What do they not know?}
@@ -45,7 +55,7 @@ How do attacks like these ever get remotely close to the systems that they targe
 \section{Conclusion}
 Summary and conclusions to take forward.
 
-\section{Bibiliography}
+\section{Bibliography}
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  1 MAR 2020 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.9)  1 MAR 2020 11:15
 entering extended mode
 **c:/Users/Jordan/Desktop/OutsideTheBoxLiteratureReview/LiteratureReview.tex
 (c:/Users/Jordan/Desktop/OutsideTheBoxLiteratureReview/LiteratureReview.tex
@@ -228,29 +228,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.20 
-      [1] (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+      [1] [2] (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
  (c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `LiteratureReview.out' has not changed.
-(rerunfilecheck)             Checksum: 99A4A3C2AF9BB4F14AF8EB84A749F941;619.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
+(rerunfilecheck)             Checksum: D527E9CDCFE7DD12AD4B4B0C506B9A93;790.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 4846 strings out of 492452
- 74532 string characters out of 3119597
- 170275 words of memory out of 3000000
- 9188 multiletter control sequences out of 15000+200000
+ 4855 strings out of 492452
+ 74711 string characters out of 3119597
+ 172449 words of memory out of 3000000
+ 9193 multiletter control sequences out of 15000+200000
  9157 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 31i,6n,28p,725b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,6n,28p,1221b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Jordan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf (3 pages, 100349 bytes).
+Output written on c:/Users\Jordan\Desktop\OutsideTheBoxLiteratureReview\LiteratureReview.pdf (4 pages, 109286 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
