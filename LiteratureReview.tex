@@ -11,6 +11,13 @@
 
 \begin{titlepage}
     \maketitle
+    \begin{abstract}
+        In 2010, a "worm" virus spread and embedded itself into approximately 100,000 systems and repeatedly malfunctioned 984 nuclear centrifuges over the span of at minimum 1 year, and likely more. It eluded detection by performing specific subroutines that would cause the equipment to only breakdown in such a way that it would cause no harm to people, and would make the scientists believe the equipment they were sold was just faulty and that they were unlucky.
+
+        This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. Stuxnet was of such high complexity and danger that security researchers at Symantec said they hope to never see anything like this again.
+
+        How do attacks like these ever get remotely close to the systems that they target? What are their routes of intrusion? Was it difficult for the attackers to attack this way, or is it easy if you have the knowhow? This literature review aims to answer the question of how cybersecurity penetration is often orchestrated, to finally demystify in an easily understandable way just how bad attacks like Stuxnet were, and how these horrors link back to software development. The hope is that this may educate developers to avoid practices that would lead software turning into husks for viruses like these before it is too late.
+    \end{abstract}
 
     \begin{center}
     680041507
@@ -21,13 +28,6 @@
 
     \end{center}
 
-    \begin{abstract}
-        In 2010, a "worm" virus spread and embedded itself into approximately 100,000 systems and repeatedly malfunctioned 984 nuclear centrifuges over the span of at minimum 1 year, and likely more. It eluded detection by performing specific subroutines that would cause the equipment to only breakdown in such a way that it would cause no harm to people, and would make the scientists believe the equipment they were sold was just faulty and that they were unlucky.
-
-        This virus was called Stuxnet, and its inception 10 years ago caused many researchers to become scared at the real-world implications that Stuxnet showed. Stuxnet proved that cybernetic attacks on critical infrastructures such as nuclear reactors are possible, and aren't just the type of attack that exists within the realms of theory or movie plotlines. Stuxnet was of such high complexity and danger that security researchers at Symantec said they hope to never see anything like this again.
-
-        How do attacks like these ever get remotely close to the systems that they target? What are their routes of intrusion? Was it difficult for the attackers to attack this way, or is it easy if you have the knowhow? This literature review aims to answer the question of how cybersecurity penetration is often orchestrated, to finally demystify in an easily understandable way just how bad attacks like Stuxnet were, and how these horrors link back to software development. The hope is that this may educate developers to avoid practices that would lead software turning into husks for viruses like these before it is too late.
-    \end{abstract}
 \end{titlepage}
 
 \tableofcontents
@@ -46,7 +46,7 @@ This review covers, as comprehensive as practical, the amount of attack vectors 
 \section{Literature Review}
 \subsection{Software Vulnerabilities}
 \label{sec:softwarevul}
-This does however provide us a glimpse into the common use of \bfseries combinations \mdseries of attack strategies to accomplish a goal. Here we see the use of zero-day vulnerabilities, through a type of attack vector known as software vulnerabilities, where poorly designed code in software is exploited. \cite{ref:singer2014cybersecurity} For Stuxnet, vulnerabilities in antivirus software were exploited, along with system level vulnerabilities in Windows processes. During the virus' initial injection, it would scan the currently running antiviruses and system processes, read metadata like their version number, and decide which process to inject its malicious code into, optionally using one of two zero-day vulnerabilities for code injection that it contained. \cite{ref:stuxnet2011report} The virus does this to elevate privileges so it can perform any action it desires on the target computer. \cite{ref:stuxnet2011report} If no process was bypassable, the virus would become inert. \cite{ref:stuxnet2011report}
+A combination of attack strategies are often used to accomplish a goal. Stuxnet uses zero-day vulnerabilities, through a type of attack vector known as software vulnerabilities, where mistakes in software code are exploited. \cite{ref:singer2014cybersecurity} For Stuxnet, vulnerabilities in antivirus software were exploited, along with system level vulnerabilities in Windows processes. During the virus' initial injection, it would scan the currently running antiviruses and system processes, read metadata like their version number, and decide which process to inject its malicious code into, optionally using one of two zero-day vulnerabilities for code injection that it contained. \cite{ref:stuxnet2011report} The virus does this to elevate privileges so it can perform any action it desires on the target computer. \cite{ref:stuxnet2011report} If no process was bypassable, the virus would become inert. \cite{ref:stuxnet2011report}
 
 Exploiting vulnerabilities like this is the most common way of breaching the security of a system. \cite{ref:biometricattackvectors,ref:ibmbiometrics,ref:honeymoonsoftware} The question then becomes, how do attackers find these zero-day vulnerabilities?
 
