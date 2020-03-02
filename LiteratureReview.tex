@@ -73,10 +73,22 @@ However, coercion doesn't have to be voluntary. Being tricked into opening infec
 
 \subsubsection{Phishing}
 \label{sec:phishing}
+Phishing is a form of social engineering (\ref{sec:coercion}) where an attacker fraudently acquires information from a victim by impersonating as a legitimate third party. \cite{ref:phishing} The attack vectors of phishing are very broad, but each one revolves around a core theme: social networks. By data mining social media websites, it's easy to send out spam messages to people. \cite{ref:phishing} The paper even describes context aware phishing, where, for example, an attacker could login to a victim's account incorrectly so many times that it becomes locked. The attacker could follow up with an email impersonating the website offering to help the victim as a result of what happened, unknowingly coercing the victim into the attacker's trap.
 
+Phishing as an attack vector revolves around building and exploiting the trust with a victim. \cite{ref:phishing} discusses many intelligent ways that publicly accessible information can be mined and re-used in messages to the victim to trick them and to build trust with them. 
+
+\subsubsection{Cross Site Scripting}
+\label{sec:xss}
+
+\subsubsection{Browser Extensions}
+\label{sec:extensions}
+While most people don't think too much about what allowing permissions for browser extensions actually does, the potential for browser extensions as an attack vector to spread a payload such as a botnet is a viable strategy. Many security flaws are present in browsers \cite{ref:reis2009browser, ref:soghoian2007remote}. Although Google Chrome attempts to sandbox as much as it can, it cannot do this perfectly. Certain extensions like Silverlight that allow feature-rich usage on websites must be used and are not designed to be in a sandboxed environnment. \cite{ref:reis2009browser}
+
+More topically, a browser extension called Web of Trust logged and sold the data of all web requests to third parties. When a German TV station bought this data and de-anonymized it, details about international search warrants and the tax declarations of members of parliament were revealed. \cite{ref:brucker2017evil} One extension even replaced phone numbers for security firms with their own, false phone numbers perhaps in an attempt to masquerade as these firms and phish (\ref{sec:phishing}) users unknowingly in times of need.
 
 \subsubsection{Driveby}
 \label{sec:driveby}
+Driveby attacks were a prevalent topic in 2008 \cite{ref:kanich2008spamalytics} where the 'Storm' worm virus has been reverse engineered and experimented with to document its behaviour. This attack vector is simple. A website, when a user lands on it, automatically downloads malware to a user's computer. If the user installs the program, usually acting as some innocuous program, the payload will activate. In Storm's case, this would attach the user to a botnet and propagate the malware across a user's entire address book, causing further drivebys along the way.
 
 \subsubsection{Botnet}
 \label{sec:botnet}
@@ -84,14 +96,17 @@ Botnets are a special type of payload propagation, where Koobface, a great examp
 
 \subsubsection{Smartphones}
 \label{sec:smartphones}
-As demonstrated in \ref{sec:softwarevul}, the rapid emergence of technologies and reuse of existing code to accomplish this has made the rate of vulnerability exploitation skyrocket. \cite{ref:jang2014survey} Smartphones are naturally a fulcrum of this problem, with huge market demand forcing these phones to integrate multiple wireless networking technologies to support new features and services. \cite{ref:mulliner2006security} Significant amounts of new firmware and hardware models are released every year, and a major focus on new features and the neglecting of security has made smartphones a bright target for attackers. \cite{ref:mulliner2006security} As Mulliner puts it, smart phones now face new security problems not found elsewhere.
+As demonstrated in \ref{sec:softwarevul}, the rapid emergence of technologies and reuse of existing code to accomplish this has made the rate of vulnerability exploitation skyrocket. \cite{ref:jang2014survey} Smartphones are naturally a fulcrum of this problem, with huge market demand forcing these phones to integrate multiple wireless networking technologies to support new features and services. \cite{ref:mulliner2006security} Significant amounts of new firmware and hardware models are released every year, and a major focus on new features and the neglecting of security has made smartphones a bright target for attackers. \cite{ref:mulliner2006security} As Mulliner \cite{ref:mulliner2006security} puts it, smart phones now face new security problems not found elsewhere.
 
+One of these such problems was resident in some of the mobile's software. Its web browser for instance had a buffer overflow vulnerability, which via the exploitation of a regular expression parser for WebKit in Apple's Safari, managed to cause an overflow and execution of the arbitrary code injected from a web page. \cite{ref:dunham2008mobile} This allowed every iPhone in existence at the time to be jailbroken just by visiting a website.
 
-
-\subsection{What do they not know?}
+On the attack vector front, Bluetooth comes to mind. In 2006 there had been no viruses that exploited actual vulnerabilities in Bluetooth, but these vulnerabilties do exist, they just require custom hardware and would appear to be impractical as a virus. \cite{ref:toyssy2006malicious} Most examples of viruses via this transmission required significant user input. For example, users would need to turn on their Bluetooth, and then accept the file manually for the payload to execute. The paper actually says that if wireless or wireless local area network (WLAN) abilities become more commonplace that viruses will probably use these as an attack vector as well.
 
 \subsubsection{Cloud computing}
 Cloud computing is a fantastic addition to the modern world that makes cloud data storage for companies small and big seamless, scalable and easy to use. \cite{ref:jang2014survey} Naturally however this means clients need to put their full trust in cloud providers to keep their data fully secure and untampered \cite{ref:zhang2010cloud} with, and these cloud providers have to trust in the infrastructure providers to deal with the requests required of the data. Due to the virtual nature of servers within the cloud, that is to say, the fact that they can move at any time, it's increasingly difficult to be able to create an entirely trusted policy that works all the way from the hardware layer and up that will keep data confidential and auditable, where auditable means that the security settings chosen by a client and forwarded by a cloud provider have not been changed, and that system logs cannot be tampered with. \cite{ref:zhang2010cloud} Creating this trusted system that works well with a customer's ever-evolving behaviours and the elastic nature of the cloud is an active area of research today.
+
+\subsection{What do they not know?}
+
 
 \subsection{What has been researched and what has not been researched?}
 
