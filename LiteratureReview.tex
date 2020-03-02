@@ -80,10 +80,18 @@ However, coercion doesn't have to be voluntary. Being tricked into opening infec
 
 \subsubsection{Botnet}
 \label{sec:botnet}
-When access to social media accounts has been established, attackers can impersonate someone's friend and use them as a kind of trojan horse to send spam to their friends. These links create a chain effect, adding more and more people to the botnet. \cite{ref:jang2014survey}
+Botnets are a special type of payload propagation, where Koobface, a great example of a botnet-propagated payload spread across social network accounts and turned accounts into "zombies," spreading spam links that friends of a user would click and in turn be enslaved. \cite{ref:thomas2010koobface} Intelligently, the malware prompts a user to install a flash executable after going through several steps that get the user into the right location inconspicuously. If the user says yes, the user becomes a new zombie and is attached to this botnet. Attackers will often continually compromise new domains as hosts get taken down, where 323 hosts were compromised to act as transient command and control servers at any time with an average of 97 always running despite them being taken down.
+
+\subsubsection{Smartphones}
+\label{sec:smartphones}
+As demonstrated in \ref{sec:softwarevul}, the rapid emergence of technologies and reuse of existing code to accomplish this has made the rate of vulnerability exploitation skyrocket. \cite{ref:jang2014survey} Smartphones are naturally a fulcrum of this problem, with huge market demand forcing these phones to integrate multiple wireless networking technologies to support new features and services. \cite{ref:mulliner2006security} Significant amounts of new firmware and hardware models are released every year, and a major focus on new features and the neglecting of security has made smartphones a bright target for attackers. \cite{ref:mulliner2006security} As Mulliner puts it, smart phones now face new security problems not found elsewhere.
+
+
 
 \subsection{What do they not know?}
 
+\subsubsection{Cloud computing}
+Cloud computing is a fantastic addition to the modern world that makes cloud data storage for companies small and big seamless, scalable and easy to use. \cite{ref:jang2014survey} Naturally however this means clients need to put their full trust in cloud providers to keep their data fully secure and untampered \cite{ref:zhang2010cloud} with, and these cloud providers have to trust in the infrastructure providers to deal with the requests required of the data. Due to the virtual nature of servers within the cloud, that is to say, the fact that they can move at any time, it's increasingly difficult to be able to create an entirely trusted policy that works all the way from the hardware layer and up that will keep data confidential and auditable, where auditable means that the security settings chosen by a client and forwarded by a cloud provider have not been changed, and that system logs cannot be tampered with. \cite{ref:zhang2010cloud} Creating this trusted system that works well with a customer's ever-evolving behaviours and the elastic nature of the cloud is an active area of research today.
 
 \subsection{What has been researched and what has not been researched?}
 
